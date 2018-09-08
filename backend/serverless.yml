@@ -1,0 +1,35 @@
+service: govhack2018
+
+frameworkVersion: ">=1.28.0 <2.0.0"
+
+plugins:
+  - serverless-python-requirements
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
+
+provider:
+  stage: dev
+  region: ap-southeast-2
+  memorySize: 128
+  name: aws
+  runtime: python3.6
+  tags:
+    appName: govhack2018
+package:
+  include:
+#    - common/**
+    - predict.py
+    - model.pkl
+  exclude:
+    - requirements.txt
+    - serverless.yml
+    - README.md
+
+functions:
+  predict:
+    handler: predict.handler
+    events:
+      - http:
+          path: /predict
+          method: get
