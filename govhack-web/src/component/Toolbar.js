@@ -4,9 +4,12 @@ import { withStyles } from '@material-ui/core/styles'
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
-import Button from '@material-ui/core/Button'
 import IconButton from '@material-ui/core/IconButton'
 import MenuIcon from '@material-ui/icons/Menu'
+import ArrowBack from '@material-ui/icons/ArrowBack'
+import Tabs from '@material-ui/core/Tabs/Tabs'
+import Tab from '@material-ui/core/Tab/Tab'
+import { path } from '../paths'
 
 const styles = {
   root: {
@@ -23,17 +26,24 @@ const styles = {
 
 function ButtonAppBar (props) {
   const {classes} = props
+  const selectedTab = props.history.location.pathname.indexOf(path.gov_predict) !== -1? 'three' : ''
   return (
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
           <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
-            <MenuIcon/>
+            {props.back ? <ArrowBack/> : <MenuIcon/>}
           </IconButton>
           <Typography variant="title" color="inherit" className={classes.flex}>
             {props.title}
           </Typography>
-          <Button color="inherit">Log out</Button>
+          <Tabs value={selectedTab} onChange={(event, value) => {
+            
+          }}>
+            <Tab value="one" label="Cases"/>
+            <Tab value="two" label="Explore"/>
+            <Tab value="three" label="Prediction tool"/>
+          </Tabs>
         </Toolbar>
       </AppBar>
     </div>
@@ -43,6 +53,7 @@ function ButtonAppBar (props) {
 ButtonAppBar.propTypes = {
   classes: PropTypes.object,
   title: PropTypes.string.isRequired,
+  back: PropTypes.bool
 }
 
 export default withStyles(styles)(ButtonAppBar)
