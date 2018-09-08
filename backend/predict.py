@@ -1,18 +1,28 @@
 import json
-from sklearn import datasets
 from sklearn.externals import joblib
 
 def handler(event, context):
-    iris = datasets.load_iris()
-    X, y = iris.data, iris.target
+    print(event)
+    body = json.loads(event["body"])
 
-    clf = joblib.load('model.pkl') 
+    complianceModel = joblib.load('model_non_compliance.pkl')
+    print("Loaded Non Compliance Model")
+    print(f"Body is: {body}")
 
-    print(clf.predict(X[0:1]))
+    outcome = complianceModel.predict([[body["sex"], body["familySituation"], body["state"]]])
+    print(outcome)
+
+    predictionResponse = {
+        "risk": int(outcome[0])
+    }
 
     response = {
         "statusCode": 200,
-        "body": "OK"
+        "headers": {
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*'
+        },
+        "body": json.dumps(predictionResponse)
     }
 
     return response

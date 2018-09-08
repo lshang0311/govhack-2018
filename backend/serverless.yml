@@ -11,7 +11,7 @@ custom:
 provider:
   stage: dev
   region: ap-southeast-2
-  memorySize: 128
+  memorySize: 512
   name: aws
   runtime: python3.6
   tags:
@@ -20,7 +20,7 @@ package:
   include:
 #    - common/**
     - predict.py
-    - model.pkl
+    - model_non_compliance.pkl
   exclude:
     - requirements.txt
     - serverless.yml
@@ -32,4 +32,5 @@ functions:
     events:
       - http:
           path: /predict
-          method: get
+          method: post
+          cors: true
