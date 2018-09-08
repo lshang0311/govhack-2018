@@ -26,19 +26,23 @@ const styles = {
 
 function ButtonAppBar (props) {
   const {classes} = props
-  const selectedTab = props.history.location.pathname.indexOf(path.gov_predict) !== -1? 'three' : ''
+  const selectedTab = props.history? props.history.location.pathname.indexOf(path.gov_predict) !== -1 ? 'three' : '' : ''
   return (
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
+          <IconButton className={classes.menuButton} color="inherit" aria-label="Menu" onClick={props.backCallback}>
             {props.back ? <ArrowBack/> : <MenuIcon/>}
           </IconButton>
           <Typography variant="title" color="inherit" className={classes.flex}>
             {props.title}
           </Typography>
           <Tabs value={selectedTab} onChange={(event, value) => {
-            
+            if (value === 'three') {
+              props.history.push(path.gov_predict)
+            } else if (value === 'one') {
+
+            }
           }}>
             <Tab value="one" label="Cases"/>
             <Tab value="two" label="Explore"/>
@@ -51,9 +55,10 @@ function ButtonAppBar (props) {
 }
 
 ButtonAppBar.propTypes = {
-  classes: PropTypes.object,
   title: PropTypes.string.isRequired,
-  back: PropTypes.bool
+  classes: PropTypes.object,
+  back: PropTypes.bool,
+  backCallback: PropTypes.func
 }
 
 export default withStyles(styles)(ButtonAppBar)

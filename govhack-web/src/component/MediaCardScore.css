@@ -1,0 +1,23 @@
+.risk-level {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.risk-level__background {
+    position: absolute;
+    height: 72px;
+    width: 100%;
+}
+
+.risk-level__background--low {
+    background-color: #4caf50;
+}
+
+.risk-level__background--moderate {
+    background-color: #ff9800;
+}
+
+.risk-level__background--high {
+    background-color: #e91e63;
+}

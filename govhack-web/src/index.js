@@ -8,6 +8,12 @@ import UserPage from './component/UserPage'
 import GovPage from './component/GovPage'
 import GovScore from './component/GovScore'
 import { path } from './paths'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faStroopwafel, faExclamationTriangle, faInfoCircle } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faStroopwafel)
+library.add(faExclamationTriangle)
+library.add(faInfoCircle)
 
 ReactDOM.render(
   <Router>

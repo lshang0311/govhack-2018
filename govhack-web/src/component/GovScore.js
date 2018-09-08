@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Toolbar from './Toolbar'
+import MediaCardScore from './MediaCardScore'
 
 export default class GovScore extends React.Component {
   constructor (props) {
@@ -12,9 +13,16 @@ export default class GovScore extends React.Component {
   render () {
     return (
       <div className={'container'}>
-        <Toolbar title={'Insolved'} back={true} {...this.props} />
+        <Toolbar title={'Insolved'}
+          back={true}
+          {...this.props}
+          backCallback={() => {
+            window.history.back()
+          }}/>
         <div className={'page userPage'}>
-          SCORE IS {this.props.match.params.score}
+          <MediaCardScore
+            score={parseInt(this.props.match.params.score)}
+          />
         </div>
       </div>
     )

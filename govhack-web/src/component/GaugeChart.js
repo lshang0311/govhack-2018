@@ -3,7 +3,7 @@ import { Cell, Pie, PieChart, Sector } from 'recharts'
 import PropTypes from 'prop-types'
 
 const GaugeChart = (props) => {
-  const width = 500
+  const width = props.width || 500
   const chartValue = props.chartValue || 0
   const colorData = [{
     value: 33, // Meaning span is 0 to 33
@@ -107,7 +107,8 @@ const GaugeChart = (props) => {
 }
 
 GaugeChart.propTypes = {
-  chartValue: PropTypes.number
+  chartValue: PropTypes.number,
+  width: PropTypes.number
 }
 
 export default GaugeChart
