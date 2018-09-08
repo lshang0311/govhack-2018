@@ -1,6 +1,6 @@
 # Encoding
 
-* Family Situtation  
+* Family Situation  
 0 = {str} 'Couple with Dependants'  
 1 = {str} 'Couple without Dependants'  
 2 = {str} 'Not Stated'  
@@ -14,17 +14,17 @@
 2 = {str} 'Not Stated'  
 3 = {str} 'Unknown'
 
-* family situation  
-00 = {str} 'Australian Capital Territory'  
-01 = {str} 'International'  
-02 = {str} 'New South Wales'   
-03 = {str} 'Northern Territory'  
-04 = {str} 'Queensland'  
-05 = {str} 'South Australia'  
-06 = {str} 'Tasmania'  
-07 = {str} 'Unknown'  
-08 = {str} 'Victoria'  
-09 = {str} 'Western Australia'
+* State of Debtor 
+0 = {str} 'Australian Capital Territory'  
+1 = {str} 'International'  
+2 = {str} 'New South Wales'   
+3 = {str} 'Northern Territory'  
+4 = {str} 'Queensland'  
+5 = {str} 'South Australia'  
+6 = {str} 'Tasmania'  
+7 = {str} 'Unknown'  
+8 = {str} 'Victoria'  
+9 = {str} 'Western Australia'
 
 * Non-compliance Type  
 0 = {str} 'AER Info Request'   
