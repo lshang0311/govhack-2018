@@ -33,7 +33,7 @@ Balanced accuracy: 0.90 - Geometric mean 0.90
            avg / total       0.90      0.90      0.99      0.90      0.94      0.88    683216
 
 
-![dataviz](https://github.com/lshang0311/govhack-2018/dataviz.png)
+![dataviz](https://github.com/lshang0311/govhack-2018/blob/master/dataviz.png)
 
 # Tech
 - Python for machine learning and AWS Lambda
