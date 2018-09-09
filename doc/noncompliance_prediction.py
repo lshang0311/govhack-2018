@@ -46,28 +46,16 @@ class MultiColumnLabelEncoder:
         return self.fit(X, y).transform(X)
 
 
-def cv_optimize(clf, parameters, X, y, n_jobs=1, n_folds=5, score_func=None, verbose=0):
-    if score_func:
-        gs = GridSearchCV(clf, param_grid=parameters, cv=n_folds, n_jobs=n_jobs, scoring=score_func, verbose=verbose)
-    else:
-        gs = GridSearchCV(clf, param_grid=parameters, n_jobs=n_jobs, cv=n_folds, verbose=verbose)
-    gs.fit(X, y)
-    print("BEST", gs.best_params_, gs.best_score_, gs.grid_scores_, gs.scorer_)
-    print("Best score: ", gs.best_score_)
-    best = gs.best_estimator_
-    return best
-
-
 # ---------------------------
 # load data
-# nrows = 356500
+input_filename = 'non-compliance-in-personal-insolvencies.csv'
 iter_csv = pd.read_csv(
     'non-compliance-in-personal-insolvencies.csv',
     iterator=True,
     chunksize=1000000,
 )
 df = pd.concat([chunk for chunk in iter_csv])
-print(df.head())
+assert df.shape == (356500, 23)
 
 # fill nan
 df['Debtor Occupation Name (ANZSCO)'] = df['Debtor Occupation Name (ANZSCO)'].fillna('unknown')
@@ -108,11 +96,10 @@ df['Non-Compliance Type'] = df['Non-Compliance Type'].astype(int)
 
 target_names = le.classes_
 
-# split train and test sets
+# build model
 X = df[feature_columns]
 y = df['Non-Compliance Type']
 
-# build model
 ros = RandomOverSampler()
 X, y = ros.fit_resample(X, y)
 X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y,
@@ -120,6 +107,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y,
 tree = DecisionTreeClassifier()
 tree.fit(X_train, y_train)
 y_pred_tree = tree.predict(X_test)
+
+print(tree.predict_proba(X_test[0:10]))
 
 print('Decision tree classifier performance:')
 print('Balanced accuracy: {:.2f} - Geometric mean {:.2f}'
