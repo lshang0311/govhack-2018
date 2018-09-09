@@ -11,6 +11,7 @@ import { path } from './paths'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faStroopwafel, faExclamationTriangle, faInfoCircle, faCircle } from '@fortawesome/free-solid-svg-icons'
 import GovPageSummary from './component/GovPageSummary'
+import GovExplore from './component/GovExplore'
 
 library.add(faStroopwafel)
 library.add(faExclamationTriangle)
@@ -21,6 +22,7 @@ ReactDOM.render(
   <Router>
     <Switch>
       <Route exact={true} path={path.user} component={UserPage}/>
+      <Route exact={true} path={path.gov_explore} component={GovExplore}/>
       <Route exact={true} path={path.gov_cases} component={GovPageSummary}/>
       <Route exact={true} path={path.gov_predict_score} component={GovScore}/>
       <Route exact={true} path={path.gov_predict} component={GovPage}/>
