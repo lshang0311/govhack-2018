@@ -174,14 +174,14 @@ export default class NonComplianceForm extends React.Component {
         </FormControl>
 
         <FormControl className={'form-control'} fullWidth={true}>
-          <InputLabel htmlFor="incomeSource" shrink={true}>Primary income source</InputLabel>
+          <InputLabel htmlFor="primaryIncome" shrink={true}>Primary income source</InputLabel>
           <Select
-            value={this.state.incomeSource}
+            value={this.state.primaryIncome}
             onChange={this.handleChange}
             fullWidth={true}
             inputProps={{
-              name: 'incomeSource',
-              id: 'incomeSource',
+              name: 'primaryIncome',
+              id: 'primaryIncome',
             }}>
               <MenuItem value={2}>Government benefits/Pensions</MenuItem>
               <MenuItem value={3}>Gross Wages and Salary</MenuItem>
