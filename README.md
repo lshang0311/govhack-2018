@@ -18,7 +18,8 @@ https://s3-ap-southeast-2.amazonaws.com/bcgdv-govhack2018/Insolvency_Data_V2.xls
 
 # Model Performance
 Decision tree classifier performance:
-Balanced accuracy: 0.90 - Geometric mean 0.90
+Balanced accuracy: 0.90 - Geometric mean 0.90  
+
                               pre       rec       spe        f1       geo       iba       sup
 
       AER Info Request       0.95      0.98      0.99      0.96      0.98      0.97     85402
