@@ -37,7 +37,16 @@ export default class GovPage extends React.Component {
 
   onClickSubmit = () => {
     this.setState({buttonDisabled: true})
-    const body = {'sex': 0, 'familySituation': 0, 'state': 0}
+    const body = {
+      'sex': 0,
+      'familySituation': 0,
+      'state': 0,
+      'occupation': 0,
+      'income': 0,
+      'primaryIncome': 0,
+      'unsecuredDebts': 0,
+      'assets': 0
+    }
     const keys = Object.keys(this.form.state)
     keys.forEach((k) => {
       body[k] = this.form.state[k]
