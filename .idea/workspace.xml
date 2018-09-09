@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8268e8c-0d1e-464a-9576-cf23fd1b8dcb" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/backend/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/govhack-web/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/govhack-web/src/index.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="GovPageSummary.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/govhack-web/src/component/GovPageSummary.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/govhack-web/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchableTable.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/govhack-web/src/component/SearchableTable.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="56" column="83" selection-start-line="56" selection-start-column="83" selection-end-line="56" selection-end-column="83" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDetail.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/govhack-web/src/component/UserDetail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GovPage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/govhack-web/src/component/GovPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GovPageSummary.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/govhack-web/src/component/GovPageSummary.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>guage</find>
+      <find>dessert</find>
+      <find>styles</find>
+      <find>onclick</find>
+      <find>onrequestsort</find>
+      <find>asc</find>
+      <find>desc</find>
+      <find>class</find>
+      <find>padding</find>
+      <find>checkbox</find>
+      <find>tablehead</find>
+      <find>calories</find>
+      <find>blah</find>
+      <find>UserDetail</find>
+      <find>single without</find>
+      <find>tablecell</find>
+      <find>data</find>
+      <find>protein</find>
+      <find>createdata</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/doc/notes.md" />
+        <option value="$PROJECT_DIR$/backend/predict.py" />
+        <option value="$PROJECT_DIR$/govhack-web/src/index.js" />
+        <option value="$PROJECT_DIR$/govhack-web/src/component/GovPageSummary.js" />
+        <option value="$PROJECT_DIR$/govhack-web/src/component/GovPageSummary.css" />
+        <option value="$PROJECT_DIR$/govhack-web/src/component/UserDetail.js" />
+        <option value="$PROJECT_DIR$/govhack-web/src/component/SearchableTable.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/backend/node_modules" />
+    <handled-path value="$PROJECT_DIR$/govhack-web/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/backend/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/bluebird/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/core-js/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/es6-promise/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/fs-extra/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/glob-all/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/immediate/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/is-wsl/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/jsonfile/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/jszip/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/lie/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/lodash.get/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/lodash.set/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/lodash.uniqby/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/lodash.values/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/pako/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/serverless-python-requirements/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/universalify/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/backend/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/backend/package.json" />
+      <path value="$PROJECT_DIR$/govhack-web/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-490" />
+    <option name="y" value="-1152" />
+    <option name="width" value="2048" />
+    <option name="height" value="1152" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="govhack-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="govhack-2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="govhack-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="govhack-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="govhack-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="govhack-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="govhack-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="govhack-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="govhack-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="govhack-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="govhack-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/govhack-web/src/component" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8268e8c-0d1e-464a-9576-cf23fd1b8dcb" name="Default" comment="" />
+      <created>1536393636219</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536393636219</updated>
+      <workItem from="1536393637921" duration="11943000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11943000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-490" y="-1152" width="2048" height="1152" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="SciView" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/govhack-web/src/component/MyMapComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/govhack-web/src/registerServiceWorker.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="270">
+            <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/govhack-web/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/govhack-web/src/component/GovPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/govhack-web/src/component/GovPageSummary.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/govhack-web/src/component/GovPageSummary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/govhack-web/src/component/UserDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/govhack-web/src/component/SearchableTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="56" column="83" selection-start-line="56" selection-start-column="83" selection-end-line="56" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

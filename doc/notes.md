@@ -35,3 +35,7 @@
 5 = {str} 'Objection to Discharge'   
 6 = {str} 'Offence Referral'   
 7 = {str} 'Other'
+
+* Conviction Result
+0 = not convicted
+1 = convicted
