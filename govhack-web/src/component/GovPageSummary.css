@@ -3,5 +3,5 @@
 }
 
 .mainTable td {
-    vertical-align: top;
+    vertical-align: inherit;
 }

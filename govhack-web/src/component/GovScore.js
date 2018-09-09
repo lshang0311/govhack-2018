@@ -21,7 +21,7 @@ export default class GovScore extends React.Component {
           }}/>
         <div className={'page userPage'}>
           <MediaCardScore
-            score={parseInt(this.props.match.params.score)}
+            score={parseInt(this.props.match.params.score, 10)}
           />
         </div>
       </div>

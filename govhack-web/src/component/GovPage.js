@@ -51,7 +51,7 @@ export default class GovPage extends React.Component {
       return response.json()
 
     }).then((data) => {
-      const score = parseInt(data['risk'] * 100)
+      const score = parseInt(data['risk'] * 100, 10)
       this.props.history.push(`/gov/predict/${score}`)
     }).catch(error => {
       this.setState({buttonDisabled: false})

@@ -1,0 +1,13 @@
+.cases {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cases__filter {
+    flex: 1 0 auto;
+    margin-right: 32px;
+}
+
+.cases__table {
+    flex: 10 1 auto;
+}

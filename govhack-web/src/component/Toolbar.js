@@ -26,7 +26,12 @@ const styles = {
 
 function ButtonAppBar (props) {
   const {classes} = props
-  const selectedTab = props.history? props.history.location.pathname.indexOf(path.gov_predict) !== -1 ? 'three' : '' : ''
+  let selectedTab = props.history? props.history.location.pathname.indexOf(path.gov_predict) !== -1 ? 'three' : '' : ''
+  if (selectedTab === '') {
+    selectedTab = props.history? props.history.location.pathname.indexOf(path.gov_cases) !== -1 ? 'one' : '' : ''
+  } else if (selectedTab === '') {
+    selectedTab = props.history? props.history.location.pathname.indexOf(path.gov_explore) !== -1 ? 'two' : '' : ''
+  }
   return (
     <div className={classes.root}>
       <AppBar position="static">
@@ -41,7 +46,7 @@ function ButtonAppBar (props) {
             if (value === 'three') {
               props.history.push(path.gov_predict)
             } else if (value === 'one') {
-
+              props.history.push(path.gov_cases)
             }
           }}>
             <Tab value="one" label="Cases"/>
