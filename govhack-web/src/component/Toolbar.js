@@ -31,6 +31,8 @@ function ButtonAppBar (props) {
     selectedTab = props.history ? props.history.location.pathname.indexOf(path.gov_cases) !== -1 ? 'one' : '' : ''
   } else if (selectedTab === '') {
     selectedTab = props.history ? props.history.location.pathname.indexOf(path.gov_explore) !== -1 ? 'two' : '' : ''
+  } else if (selectedTab === '') {
+    selectedTab = props.history ? props.history.location.pathname.indexOf(path.home) !== -1 ? 'one' : '' : ''
   }
   return (
     <div className={classes.root}>

@@ -25,7 +25,7 @@ ReactDOM.render(
       <Route exact={true} path={path.gov_predict_score} component={GovScore}/>
       <Route exact={true} path={path.gov_predict} component={GovPage}/>
       <Route exact={true} path={path.gov} component={GovPage}/>
-      <Route exact={true} path={path.home} component={App}/>
+      <Route exact={true} path={path.home} component={GovPageSummary}/>
     </Switch>
   </Router>
   , document.getElementById('root'))
