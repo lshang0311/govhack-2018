@@ -1,20 +1,3 @@
-# Model Performance
-Decision tree classifier performance:
-Balanced accuracy: 0.90 - Geometric mean 0.90
-                              pre       rec       spe        f1       geo       iba       sup
-
-      AER Info Request       0.95      0.98      0.99      0.96      0.98      0.97     85402
-             Complaint       0.90      0.91      0.99      0.90      0.95      0.89     85402
-              Inactive       0.88      0.73      0.99      0.80      0.85      0.70     85402
-          Info Request       0.91      0.93      0.99      0.92      0.96      0.91     85402
-      Inspection Error       0.91      0.97      0.99      0.94      0.98      0.96     85402
-      Objection to Discharge 0.89      0.89      0.98      0.89      0.94      0.87     85402
-      Offence Referral       0.82      0.81      0.97      0.82      0.89      0.78     85402
-                 Other       0.98      1.00      1.00      0.99      1.00      1.00     85402
-
-           avg / total       0.90      0.90      0.99      0.90      0.94      0.88    683216
-
-
 
 # Encoding
 

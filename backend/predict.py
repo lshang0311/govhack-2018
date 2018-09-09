@@ -5,7 +5,7 @@ def handler(event, context):
     print(event)
     body = json.loads(event["body"])
 
-    complianceModel = joblib.load('model_non_compliance_v2.pkl')
+    complianceModel = joblib.load('model.pkl')
     print("Loaded Non Compliance Model")
     print(f"Body is: {body}")
 
@@ -22,7 +22,7 @@ def handler(event, context):
     print(outcome)
 
     predictionResponse = {
-        "risk": float(outcome[0][6] + float(outcome[0][7]))
+        "risk": float(outcome[0][5] + float(outcome[0][6]))
     }
 
     response = {
