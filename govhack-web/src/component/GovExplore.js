@@ -1,7 +1,7 @@
 import React from 'react'
 import './GovPageSummary.css'
 import Toolbar from './Toolbar'
-import Explore from '../images/explore.png'
+import Explore from '../images/explore3.png'
 
 export default class GovExplore extends React.Component {
   constructor (props) {
@@ -14,7 +14,7 @@ export default class GovExplore extends React.Component {
       <div className={'container'}>
         <Toolbar title={'Insolved'} {...this.props} />
         <div style={{maxWidth: 1000, margin: '8px auto'}}>
-          <img src={Explore}  />
+          <img src={Explore} style={{maxWidth: 1000}}  />
         </div>
       </div>
     )
