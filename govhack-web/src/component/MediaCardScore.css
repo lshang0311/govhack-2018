@@ -21,3 +21,15 @@
 .risk-level__background--high {
     background-color: #e91e63;
 }
+
+.risk--low {
+    color: #4caf50;
+}
+
+.risk--moderate {
+    color: #ff9800;
+}
+
+.risk--high {
+    color: #e91e63;
+}

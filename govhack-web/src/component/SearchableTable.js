@@ -16,6 +16,7 @@ import { lighten } from '@material-ui/core/styles/colorManipulator'
 import UserDetail from './UserDetail'
 import './SearchableTable.css'
 import SearchTableFilters from './SearchTableFilters'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 let counter = 0
 
@@ -245,6 +246,16 @@ class EnhancedTable extends React.Component {
 
   isSelected = id => this.state.selected.indexOf(id) !== -1
 
+  getColorFor = (risk) => {
+    if (risk === 'High') {
+      return 'risk--high'
+    } else if (risk === 'Moderate') {
+      return 'risk--moderate'
+    } else {
+      return 'risk--low'
+    }
+  }
+
   render () {
     const {classes} = this.props
     const {data, order, orderBy, selected, rowsPerPage, page} = this.state
@@ -280,7 +291,7 @@ class EnhancedTable extends React.Component {
                         tabIndex={-1}
                         key={n.id}>
                         <TableCell component="th" scope="row" padding={'default'}>
-                          {n.risk}
+                          <span className={this.getColorFor(n.risk)}><FontAwesomeIcon icon="circle"/></span>&nbsp;&nbsp;{n.risk}
                           <UserDetail isSelected={isSelected} oneTitle={'Family Situation'} oneValue={n.familySituation}
                             twoTitle={'Occupation'} twoValue={n.occupation} threeTitle={'Gender'}
                             threeValue={n.gender}/>
