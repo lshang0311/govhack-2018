@@ -22,7 +22,7 @@ const styles = {
 function MediaCard (props) {
   const {classes} = props
   return (
-    <Card className={classes.card} disableRipple>
+    <Card className={classes.card} disableRipple style={{margin: '0 auto'}}>
 
       <div style={{position: 'relative'}}>
         <div
