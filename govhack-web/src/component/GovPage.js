@@ -4,6 +4,7 @@ import './GovPage.css'
 import Button from '@material-ui/core/Button/Button'
 import { svcPath } from '../Api'
 import NonComplianceForm from './NonComplianceForm'
+import Typography from '@material-ui/core/Typography/Typography'
 
 export default class GovPage extends React.Component {
   constructor (props) {
@@ -36,7 +37,16 @@ export default class GovPage extends React.Component {
 
   onClickSubmit = () => {
     this.setState({buttonDisabled: true})
-    const body = {'sex': 0, 'familySituation': 0, 'state': 0}
+    const body = {
+      'sex': 0,
+      'familySituation': 0,
+      'state': 0,
+      'occupation': 0,
+      'income': 0,
+      'primaryIncome': 0,
+      'unsecuredDebts': 0,
+      'assets': 0
+    }
     const keys = Object.keys(this.form.state)
     keys.forEach((k) => {
       body[k] = this.form.state[k]
@@ -65,8 +75,10 @@ export default class GovPage extends React.Component {
       <div className={'container'}>
         <Toolbar title={'Insolved'} {...this.props} />
         <div className={'page govPage'}>
-          <h2>Non-compliance prediction tool</h2>
-          <h4>Enter details of a personal insolvency case to predict non-compliance.</h4>
+          <Typography variant="title" id="tableTitle" style={{marginTop: 16}}>
+            Non-compliance Prediction Tool
+          </Typography>
+          <h4 style={{fontWeight: 'normal'}}>Enter details of a personal insolvency case to predict non-compliance.</h4>
           <NonComplianceForm ref={(node) => this.form = node}/>
           <div className={'govPage__button'}>
             <Button

@@ -31,7 +31,7 @@ export default class SearchTableFilters extends React.Component {
   render () {
     return (
       <div className={'search-table-filters'}>
-        <div><h4 style={{marginBottom: 8}}>ID SEARCH</h4></div>
+        <div><h4 style={{marginBottom: 8}}>ID Search</h4></div>
         <FormControl className={''} fullWidth={true}>
           <Input
             id="search_id"
@@ -49,7 +49,7 @@ export default class SearchTableFilters extends React.Component {
           />
         </FormControl>
 
-        <div><h4>FILTERS</h4></div>
+        <div><h4>Filters</h4></div>
 
         <FormControl className={'form-control'} fullWidth={true}>
           <InputLabel htmlFor="risk" shrink={true}>Risk</InputLabel>
