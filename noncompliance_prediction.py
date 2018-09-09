@@ -17,10 +17,10 @@ GovHack 2018 - Non-compliance prediction
 
 class MultiColumnLabelEncoder:
     def __init__(self, columns=None):
-        self.columns = columns  # array of column names to encode
+        self.columns = columns
 
     def fit(self, X, y=None):
-        return self  # not relevant here
+        return self 
 
     def transform(self, X):
         """
