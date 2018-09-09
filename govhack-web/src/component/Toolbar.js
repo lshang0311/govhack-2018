@@ -47,13 +47,15 @@ function ButtonAppBar (props) {
             {props.title}
           </Typography>
           <Tabs
-            TabIndicatorProps={{style: {backgroundColor:'#FFFFFF'}}}
+            TabIndicatorProps={{style: {backgroundColor: '#FFFFFF'}}}
             value={selectedTab}
             onChange={(event, value) => {
               if (value === 'three') {
                 props.history.push(path.gov_predict)
               } else if (value === 'one') {
                 props.history.push(path.gov_cases)
+              } else if (value === 'two') {
+                props.history.push(path.gov_explore)
               }
             }}>
             <Tab value="one" label="Cases"/>
