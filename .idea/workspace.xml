@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8268e8c-0d1e-464a-9576-cf23fd1b8dcb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/serverless.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/serverless.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/govhack-web/src/component/NonComplianceForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/govhack-web/src/component/NonComplianceForm.js" afterDir="false" />
-    </list>
+    <list default="true" id="d8268e8c-0d1e-464a-9576-cf23fd1b8dcb" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +35,8 @@
       <file leaf-file-name="NonComplianceForm.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/govhack-web/src/component/NonComplianceForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
+            <state relative-caret-position="736">
+              <caret line="53" column="63" lean-forward="true" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -322,16 +316,15 @@
       <option name="presentableId" value="Default" />
       <updated>1536393636219</updated>
       <workItem from="1536393637921" duration="12282000" />
-      <workItem from="1536455918534" duration="3885000" />
+      <workItem from="1536455918534" duration="4132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16167000" />
+    <option name="totallyTimeSpent" value="16414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-490" y="-1152" width="2048" height="1152" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -533,8 +526,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/govhack-web/src/component/NonComplianceForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
+        <state relative-caret-position="736">
+          <caret line="53" column="63" lean-forward="true" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
