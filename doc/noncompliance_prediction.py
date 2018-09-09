@@ -87,23 +87,27 @@ df['Value of Assets'] = df['Value of Assets'].astype(int)
 print(df.dtypes)
 
 # prepare the target
-df['Non-Compliance Type'] = df['Non-Compliance Type'].fillna('Inactive')
+target = 'Non-Compliance Type'
+df[target] = df[target].fillna('Inactive')
 
 le = preprocessing.LabelEncoder()
-le.fit(df["Non-Compliance Type"])
-df["Non-Compliance Type"] = le.transform(df['Non-Compliance Type'])
-df['Non-Compliance Type'] = df['Non-Compliance Type'].astype(int)
+le.fit(df[target])
+df[target] = le.transform(df[target])
+df[target] = df[target].astype(int)
 
 target_names = le.classes_
 
 # build model
 X = df[feature_columns]
-y = df['Non-Compliance Type']
+y = df[target]
 
 ros = RandomOverSampler()
 X, y = ros.fit_resample(X, y)
-X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y,
-                                                    random_state=0)
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y,
+    stratify=y,
+    random_state=0
+)
 tree = DecisionTreeClassifier()
 tree.fit(X_train, y_train)
 y_pred_tree = tree.predict(X_test)
