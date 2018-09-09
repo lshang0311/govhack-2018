@@ -10,16 +10,16 @@ export default class GovPage extends React.Component {
   }
 
   mainTable = {
-    table: "mainTable"
+    table: 'mainTable'
   }
 
   render () {
     return (
       <div className={'container'}>
-        <Toolbar title={'Gov Page'}/>
-          <div className={'container test'}>
-            <SearchableTable classes={this.mainTable}/>
-          </div>
+        <Toolbar title={'Gov Page'} {...this.props}/>
+        <div className={'container test'}>
+          <SearchableTable classes={this.mainTable}/>
+        </div>
       </div>
     )
   }

@@ -15,7 +15,6 @@ export default class NonComplianceForm extends React.Component {
   }
 
   handleChange = event => {
-    console.log(event.target)
     this.setState({
       [event.target.name]: event.target.value,
     })
