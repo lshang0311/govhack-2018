@@ -50,7 +50,7 @@ class MultiColumnLabelEncoder:
 # load data
 input_filename = 'non-compliance-in-personal-insolvencies.csv'
 iter_csv = pd.read_csv(
-    'non-compliance-in-personal-insolvencies.csv',
+    input_filename,
     iterator=True,
     chunksize=1000000,
 )
@@ -108,6 +108,7 @@ y_pred_tree = tree.predict(X_test)
 
 print(tree.predict_proba(X_test[0:10]))
 
+# show model performance
 print('Decision tree classifier performance:')
 print('Balanced accuracy: {:.2f} - Geometric mean {:.2f}'
       .format(balanced_accuracy_score(y_test, y_pred_tree),
@@ -118,4 +119,3 @@ print(classification_report_imbalanced(y_test, y_pred_tree, target_names=target_
 # save the model
 filename = 'model.pkl'
 pickle.dump(tree, open(filename, 'wb'))
-
