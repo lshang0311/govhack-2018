@@ -20,7 +20,7 @@ package:
   include:
 #    - common/**
     - predict.py
-    - model_non_compliance.pkl
+    - model_non_compliance_v2.pkl
   exclude:
     - requirements.txt
     - serverless.yml

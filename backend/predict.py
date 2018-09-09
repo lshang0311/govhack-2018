@@ -5,15 +5,24 @@ def handler(event, context):
     print(event)
     body = json.loads(event["body"])
 
-    complianceModel = joblib.load('model_non_compliance.pkl')
+    complianceModel = joblib.load('model_non_compliance_v2.pkl')
     print("Loaded Non Compliance Model")
     print(f"Body is: {body}")
 
-    outcome = complianceModel.predict([[body["sex"], body["familySituation"], body["state"]]])
+    state = body["state"]
+    sex = body["sex"]
+    familySituation = body["familySituation"]
+    occupation = body["occupation"]
+    income = body["income"]
+    primarySourceIncome = body["primaryIncome"]
+    unsecuredDebts = body["unsecuredDebts"]
+    assets = body["assets"]
+
+    outcome = complianceModel.predict_proba([[state, sex, familySituation, occupation, income, primarySourceIncome, unsecuredDebts, assets]])
     print(outcome)
 
     predictionResponse = {
-        "risk": int(outcome[0])
+        "risk": float(outcome[0][6] + float(outcome[0][7]))
     }
 
     response = {
