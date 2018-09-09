@@ -21,6 +21,7 @@ Decision tree classifier performance:
    * Balanced accuracy: 0.90
    * Geometric mean 0.90 
 
+```
                               pre       rec       spe        f1       geo       iba       sup
 
       AER Info Request       0.95      0.98      0.99      0.96      0.98      0.97     85402
@@ -33,7 +34,7 @@ Decision tree classifier performance:
                  Other       0.98      1.00      1.00      0.99      1.00      1.00     85402
 
            avg / total       0.90      0.90      0.99      0.90      0.94      0.88    683216
-
+```
 
 ![dataviz](https://github.com/lshang0311/govhack-2018/blob/master/dataviz.png)
 
