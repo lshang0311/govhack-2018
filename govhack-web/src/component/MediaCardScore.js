@@ -44,7 +44,7 @@ function MediaCard (props) {
       <CardContent>
         <Typography component="p" style={{fontSize: '16px'}}>
           This individual has a {props.score < 34 ? 'low' : props.score < 67 ? 'moderate' : 'high'} risk
-          of non-compliance based on the following.
+          of non-compliance based on the following:
         </Typography>
         <ul style={{fontSize: '15px'}}>
           <li>Cost of living in region</li>

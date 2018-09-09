@@ -149,7 +149,7 @@ let EnhancedTableToolbar = props => {
       <div className={classes.title}>
 
         <Typography variant="title" id="tableTitle">
-          PERSONAL INSOLVENCY CASES
+          Personal Insolvency Cases
         </Typography>
 
       </div>
