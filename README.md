@@ -13,6 +13,9 @@ Machine learning techniques have been used to solve a few problems with the data
 The final dataset is a combination of multiple ones which can be found on the hackerspace page:
 https://2018.hackerspace.govhack.org/team_management/teams/308
 
+Combined Working Dataset available at:
+https://s3-ap-southeast-2.amazonaws.com/bcgdv-govhack2018/Insolvency_Data_V2.xlsb
+
 # Model Performance
 Decision tree classifier performance:
 Balanced accuracy: 0.90 - Geometric mean 0.90

@@ -76,14 +76,8 @@ df = MultiColumnLabelEncoder(
 ).fit_transform(df)
 
 # cast type
-df['State of Debtor'] = df['State of Debtor'].astype(int)
-df['Sex of Debtor'] = df['Sex of Debtor'].astype(int)
-df['Family Situation'] = df['Family Situation'].astype(int)
-df['Debtor Occupation Name (ANZSCO)'] = df['Debtor Occupation Name (ANZSCO)'].astype(int)
-df['Debtor Income'] = df['Debtor Income'].astype(int)
-df['Primary Income Source'] = df['Primary Income Source'].astype(int)
-df['Unsecured Debts'] = df['Unsecured Debts'].astype(int)
-df['Value of Assets'] = df['Value of Assets'].astype(int)
+for col in feature_columns:
+    df[col] = df[col].astype(int)
 print(df.dtypes)
 
 # prepare the target
@@ -124,3 +118,4 @@ print(classification_report_imbalanced(y_test, y_pred_tree, target_names=target_
 # save the model
 filename = 'model.pkl'
 pickle.dump(tree, open(filename, 'wb'))
+
