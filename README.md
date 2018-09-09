@@ -17,8 +17,9 @@ Combined Working Dataset available at:
 https://s3-ap-southeast-2.amazonaws.com/bcgdv-govhack2018/Insolvency_Data_V2.xlsb
 
 # Model Performance
-Decision tree classifier performance:
-Balanced accuracy: 0.90 - Geometric mean 0.90  
+Decision tree classifier performance:   
+   * Balanced accuracy: 0.90
+   * Geometric mean 0.90 
 
                               pre       rec       spe        f1       geo       iba       sup
 
